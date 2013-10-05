@@ -126,3 +126,19 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+/* Tipografía */body {
+  font-family: Arial, Helvetica;
+  font-size: 16px;
+}
+h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+body {
+  background-color: #0000ff;
+}
+.titular {
+  margin: 0 20%;
+  margin-top: 20%;
+}
