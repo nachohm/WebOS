@@ -4,10 +4,37 @@
 	<meta charset="UTF-8">
 	<title>Proyecto con git</title>
 	<link rel="stylesheet" href="css/estilos.css">
-</head>
-<body>
+	<script src="js/angular.min.js"></script>
+	<script src="js/scripts.js"></script>
+<body ng-app>
+	<header>
+		<div class="menu">
+			<ul>
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Inicio</a></li>
+			</ul>
+		</div>
+	</header>
 	<div class="titular">
-	<h1>Hola, esto es un cahondeo</h1>
+	<h1>Hola, esto es un cachondeo</h1>
+	<div ng-controller="Ctrl">
+	<input type="text" ng-model="yourName" placeholder="Enter a name here">
+	<h1 >Hello {{yourName}}!</h1>
+</div>
 	</div>
+
+	<div ></div> 
+	<div ng-app="components">
+ <tabs>
+  <pane title="Pestaña 1">
+   Aquí va el contenido de la primera pestaña.
+  </pane>
+  <pane title="Pestaña 2">
+   Este es el contenido de la pestaña número dos.
+  </pane>
+ </tabs>
+</div>
 </body>
 </html>
